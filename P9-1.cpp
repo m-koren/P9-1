@@ -7,7 +7,7 @@ int countVowel(string str);
 int main(void) {
 	string str{};
 	while (true) {
-		cout << "Enter a string here: ";
+		cout << "Enter a string here or Q to quit: ";
 		getline(cin, str);
 
 		if (str == "Q") {
